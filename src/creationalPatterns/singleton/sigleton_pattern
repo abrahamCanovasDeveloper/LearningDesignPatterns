@@ -1,0 +1,5 @@
+Patrón de diseño.
+Se emplea cuando quieres asegurarte de que solo existe una Instancia de una clase.
+
+Para ello simplemente el constructor se hace privado, y se añade un metodo publico llamado por lo general getInstance(),
+el cual comprueba si ya extiste alguna instancia, y solo devuelve cuando no existe.
